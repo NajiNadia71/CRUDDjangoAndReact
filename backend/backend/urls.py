@@ -5,7 +5,7 @@ from simplecrud import views
 
 
 router = routers.DefaultRouter()
-router.register(r'simplecruds', views.CountryView, 'simplecrud')
+router.register(r'Countrys', views.CountryView, 'country')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
